@@ -1,4 +1,4 @@
-[![Java CI with Gradle](https://github.com/LevVolkov/Patterns2/actions/workflows/gradle.yml/badge.svg)](https://github.com/LevVolkov/Patterns2/actions/workflows/gradle.yml)
+[![Build status](https://ci.appveyor.com/api/projects/status/7aw81g41o45ay82m/branch/main?svg=true)](https://ci.appveyor.com/project/alekseyp555/patterns2/branch/main)
 
 Generating Allure Report:
 After running your tests with Gradle (./gradlew clean test), Allure results will be generated in build/allure-results. 
