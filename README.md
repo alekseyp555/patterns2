@@ -1,5 +1,14 @@
 [![Java CI with Gradle](https://github.com/LevVolkov/Patterns2/actions/workflows/gradle.yml/badge.svg)](https://github.com/LevVolkov/Patterns2/actions/workflows/gradle.yml)
 
+Generating Allure Report:
+After running your tests with Gradle (./gradlew clean test), Allure results will be generated in build/allure-results. 
+To view the report, use the Allure command-line tool:
+
+allure serve build/allure-results
+
+This will open the Allure report in your browser, displaying test results, screenshots, and other attachments captured by Selenide and Allure.
+
+
 # 5.2 Домашнее задание к занятию «2.3. Patterns»
 
 В качестве результата пришлите ссылку на ваш GitHub-проект в личном кабинете студента на сайте [netology.ru](https://netology.ru).
